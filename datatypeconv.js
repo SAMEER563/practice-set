@@ -14,6 +14,17 @@ let valueNumber = Number(score);
 // true => 1; false => 0
 
 
-let isLoggedIn = 1
+let isLoggedIn = "sameer"
 let isLoggedInBoolean = Boolean(isLoggedIn);
-console.log(isLoggedInBoolean);
+// console.log(isLoggedInBoolean);
+
+// 1 => true; 0=> false
+// "" => false
+// "sameer" => true
+
+
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);

@@ -36,10 +36,41 @@ const obj2 = {3: "a", 4: "b"}
 const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
 
-console.log(blogUser);
+// console.log(blogUser);
 
-console.log(Object.keys(blogUser));
-console.log(Object.values(blogUser));
-console.log(Object.entries(blogUser));
+// console.log(Object.keys(blogUser));
+// console.log(Object.values(blogUser));
+// console.log(Object.entries(blogUser));
 
-console.log(blogUser.hasOwnProperty('isLogged'));
+// console.log(blogUser.hasOwnProperty('isLogged'));
+
+
+const course = {
+      coursename: "Cloud computing",
+      price: "999",
+      courseInstructor: "Sameer"
+}
+
+//normal method to print
+// console.log(course.courseInstructor);
+
+// new method for print
+
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+// json format
+
+// {
+//     "name": " ram",
+//     "vill": "lucknow",
+//     "work": "waiter"
+// }
+
+// other json format
+
+[
+    {},
+    {},
+    {}
+]

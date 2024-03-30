@@ -39,7 +39,7 @@ const obj3 = {...obj1, ...obj2}
 // console.log(blogUser);
 
 // console.log(Object.keys(blogUser));
-// console.log(Object.values(blogUser));
+console.log(Object.values(blogUser));
 // console.log(Object.entries(blogUser));
 
 // console.log(blogUser.hasOwnProperty('isLogged'));

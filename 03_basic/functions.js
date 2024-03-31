@@ -25,16 +25,16 @@ function sayName(){
 // console.log("Result:", result);
 
 
-function loginUserMesssage(username){
+// function loginUserMesssage(username){
     // if(username === undefined){
         // or
 
-        if(!username){
-        console.log("Please enter a username");
-        return
-    }
-    return `${username} just logged in`
-}
+//         if(!username){
+//         console.log("Please enter a username");
+//         return
+//     }
+//     return `${username} just logged in`
+// }
 
 // console.log(loginUserMesssage("Sameer"))
 // console.log(loginUserMesssage());

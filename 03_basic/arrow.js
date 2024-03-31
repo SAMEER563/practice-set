@@ -12,12 +12,12 @@ const user = {
 // user.username = "sam"
 // user.welcomeMessage()
 
-// function coffee() {
-//     let username = "sameer"
-//     console.log(this);
-// }
+function coffee() {
+    let username = "sameer"
+    console.log(this);
+}
 
-// coffee()
+coffee()
 
 // const coffee = function () {
 //     let username = "sameer"
@@ -26,12 +26,12 @@ const user = {
 
 // coffee()
 
-// const coffee =  () => {
-//     let username = "sameer"
-//     console.log(this.username);
-// }
+const coffee =  () => {
+    let username = "sameer"
+    console.log(this.username);
+}
 
-// coffee()
+coffee()
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2

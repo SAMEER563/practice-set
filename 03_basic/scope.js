@@ -18,18 +18,18 @@ var c = 30
 
 
 
-function one () {
-    const username = "sameer"
+// function one () {
+//     const username = "sameer"
 
-    function two () {
-        const website = "gyanget"
-        console.log(username);
-    }
+//     function two () {
+//         const website = "gyanget"
+//         console.log(username);
+//     }
 
-    // console.log(website);
+// console.log(website);
 
-    two()
-}
+//     two()
+// }
 
 // one()
 

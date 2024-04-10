@@ -8,17 +8,17 @@
 const mySym = Symbol("key1")
 
 
-// const User = {
-//     name: "Sameer",
-//     // if we declare as string then we access this by using 2nd 
-//     "fullName": "Sameer kumar maurya",
-//     [mySym]: "mykey1",  //declare symbol
-//     age: 23,
-//     location: "Lucknow",
-//     email:"sam@gmail.com",
-//     isLoggedIn: true,
-//     lastLoginDays: ["Monday", "Saturday"]
-// }
+const User = {
+    name: "Sameer",
+    // if we declare as string then we access this by using 2nd 
+    "fullName": "Sameer kumar maurya",
+    [mySym]: "mykey1",  //declare symbol
+    age: 23,
+    location: "Lucknow",
+    email:"sam@gmail.com",
+    isLoggedIn: true,
+    lastLoginDays: ["Monday", "Saturday"]
+}
 
 
 // two types to access object

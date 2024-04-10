@@ -25,19 +25,20 @@ function sayName(){
 // console.log("Result:", result);
 
 
-// function loginUserMesssage(username){
-    // if(username === undefined){
-        // or
+function loginUserMesssage(username){
+    if(username === undefined){
+        or
 
-//         if(!username){
-//         console.log("Please enter a username");
-//         return
-//     }
-//     return `${username} just logged in`
-// }
+        if(!username){
+        console.log("Please enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+}
 
-// console.log(loginUserMesssage("Sameer"))
-// console.log(loginUserMesssage());
+console.log(loginUserMesssage("Sameer"))
+console.log(loginUserMesssage());
 
 function calculateCardPrice(...num1) {  // use of rest operator (...)
     return num1

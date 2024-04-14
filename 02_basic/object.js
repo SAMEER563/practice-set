@@ -23,11 +23,11 @@ const User = {
 
 // two types to access object
 // 1st type
-// console.log(User.name);
+console.log(User.name);
 
 // 2nd type
-// console.log(User["location"]);
-// console.log(User["fullName"]);
+console.log(User["location"]);
+console.log(User["fullName"]);
 // console.log(User[mySym]);        // we can access symbol without using string
 
 // to override the value

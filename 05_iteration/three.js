@@ -31,6 +31,6 @@ const myObject = {
 
 }
 
-// for (const [key, value] of myObject) {
-//     console.log(key, ":=" , value);
-// }
+for (const [key, value] of myObject) {
+    console.log(key, ":=" , value);
+}

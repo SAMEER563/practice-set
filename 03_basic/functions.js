@@ -37,8 +37,8 @@ function sayName(){
 // }
 // }
 
-console.log(loginUserMesssage("Sameer"))
-console.log(loginUserMesssage());
+// console.log(loginUserMesssage("Sameer"))
+// console.log(loginUserMesssage());
 
 function calculateCardPrice(...num1) {  // use of rest operator (...)
     return num1
